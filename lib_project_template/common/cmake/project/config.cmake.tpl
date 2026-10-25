@@ -1,0 +1,13 @@
+# Per-library identity and explicit file lists. Consumers select BUILD_SHARED_LIBS.
+set(lib_name @NAME@)
+set(lib_package @PACKAGE@)
+set(lib_version 0.1.0)
+set(lib_cxx_standard 20)
+set(lib_header_only @HEADER_ONLY@)
+set(lib_namespace "")
+set(lib_option_prefix "")
+set(lib_headers include/@NAME@/@NAME@.h)
+set(lib_sources @source_files@)
+set(lib_module_files modules/@NAME@.cppm)
+set(lib_module_name lcf.@NAME@)
+set(lib_test_header @NAME@/@NAME@.h)
